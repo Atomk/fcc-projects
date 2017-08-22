@@ -1,0 +1,18 @@
+h1 {
+  font-family: "Berkshire Swash", cursive;
+  font-size: 52px;
+}
+
+body {
+  background-image: url("../img/paper.jpg");
+  font-size: 16px;
+}
+
+img {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.container-fluid {
+  margin: 50px 20px 20px 30px;
+}

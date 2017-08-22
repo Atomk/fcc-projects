@@ -1,0 +1,30 @@
+body {
+  padding-top: 60px; /* Separates body content from fixed navbar */
+  font-family: Verdana, monospace;
+  background-color: #121b20;
+  color: #45c04b;
+}
+
+/*h1 { color: #cBA040; }*/
+
+strong { color: #55d850; }
+
+.contact-image {
+  height: 45px;  /* Force images to be shown as small icons */
+  width: 45px;
+  margin: 8px; /* Increase distance between icons */
+}
+
+#contact {
+  margin-bottom: 50px;  /* Separate the last section from the page's bottom */
+}
+
+p {
+  font-size: 1.3em;  /* Make font size in paragraphs a little bigger than normal. */
+}
+
+hr {
+  margin: 50px auto;
+}
+
+.more-bottom { margin-bottom: 30px; }
