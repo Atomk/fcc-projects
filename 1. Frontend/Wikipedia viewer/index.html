@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Wikipedia Viewer</title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css'>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="container">
+    <img id="logo" class="img-responsive center-block" src="http://image.flaticon.com/icons/png/512/33/33949.png" alt="Wikipedia logo">
+
+    <!-- Giving "center-block" directly to the form breaks its layout -->
+    <div id="form-container" class="center-block">
+      <!-- http://getbootstrap.com/components/#input-groups -->
+      <form class="input-group" action="javascript:checkForm()">
+        <span class="input-group-btn">
+          <button id="btnrandom" class="btn" type="button" data-toggle="tooltip" data-placement="top" title="Random article">
+            <span class="glyphicon glyphicon-random" aria-hidden="true"></span>
+          </button>
+        </span>
+        <input id="searchbar" type="search" class="form-control" placeholder="Search Wikipedia for...">
+        <span class="input-group-btn">
+          <button id="btnsearch" class="btn" type="submit" data-toggle="tooltip" data-placement="top" title="Search">
+            <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+          </button>
+        </span>
+      </form><!-- /.input-group -->
+    </div><!-- /#form-container -->
+
+    <h3 id="results-title" class="text-center"></h3>
+    <div id="results-list" class="list-group"></div>
+      
+    <footer class="text-center">Made by <a href="https://www.freecodecamp.com/atomk" target="_blank">Atomk</a> for <a href="https://www.freecodecamp.com" target="_blank">FreeCodeCamp</a>.</footer>
+  </div><!-- /.container -->
+  <script src='https://code.jquery.com/jquery-2.2.4.min.js'></script>
+  <script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js'></script>
+  <script src="js/index.js"></script>
+</body>
+</html>

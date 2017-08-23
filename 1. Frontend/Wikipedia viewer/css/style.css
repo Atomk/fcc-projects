@@ -1,0 +1,22 @@
+body {
+  padding: 10px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+#logo {
+  max-height: 80px;
+  margin-bottom: 26px;
+}
+
+#form-container {
+  max-width: 500px;
+}
+
+footer {
+  margin-top: 30px;
+}
+
+#results-title {
+  margin-bottom: 20px;
+}

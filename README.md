@@ -9,16 +9,16 @@ Many of them were created with Codepen, you can find a link to view a live versi
     - [ ] Intermediate
     - [ ] Advanced
 - Basic projects
-    1. [x] Tribute page
-    2. [x] Personal portfolio page
+    1. [x] Tribute page ([live demo](https://codepen.io/Atomk/pen/grdXjZ))
+    2. [x] Personal portfolio page ([live demo](https://codepen.io/Atomk/pen/dMqLer))
 - Intermediate projects
     1. [ ] Random quote machine
     2. [ ] Local weather
-    3. [ ] Wikipedia viewer
+    3. [x] Wikipedia viewer ([live demo](https://codepen.io/Atomk/pen/jAJAxR))
     4. [ ] Twitch.tv JSON API
 - Advanced projects
     1. [ ] JS calculator
-    2. [x] Pomodoro clock
+    2. [x] Pomodoro clock ([live demo](https://codepen.io/Atomk/pen/gwpRyq))
     3. [ ] Tic Tac Toe
     4. [ ] Simon Game
 
