@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Local Weather</title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css'>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <div class="container-fluid">
+    <div class="text-center">
+      <h2 id="title">What's the weather like?</h2>
+      <div class="transparent center-block">
+        <!-- 'span' elements have no default margin/padding, unlike 'p' -->
+        <span id="pos">Waiting for location...</span>
+        <img id="icon" class="center-block">
+        <p id="weather"></p>
+        <div> <!-- This div's only purpose is to keep temperature and button on the same line... -->
+          <span id="temp"></span>
+          <button id="btn-switch-unit" type="button" class="btn">°C</button>
+        </div>
+      </div><!-- /.transparent -->
+      <footer>Made by <a href="https://www.freecodecamp.com/atomk" target="_blank">Atomk</a> for <a href="https://www.freecodecamp.com" target="_blank">freeCodeCamp</a>.</footer>
+    </div><!-- /.text-center -->
+  </div><!-- /.container -->
+  <script src='https://code.jquery.com/jquery-2.2.4.min.js'></script>
+  <script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js'></script>
+  <script src="js/index.js"></script>
+</body>
+</html>

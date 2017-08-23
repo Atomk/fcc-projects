@@ -1,7 +1,7 @@
 # freeCodeCamp projects
 A repository for the projects I've built for the challenges on [freeCodeCamp](https://www.freecodecamp.com).
 
-Many of them were created with Codepen, you can find a link to view a live version of those in the individual project folders.
+Many of them were created with Codepen, you can find a link to view a live version of those here below or in the individual project folders.
 
 ## 1) Front-end ([certificate](https://www.freecodecamp.org/atomk/front-end-certification))
 - JS algorithm scripting
@@ -9,25 +9,25 @@ Many of them were created with Codepen, you can find a link to view a live versi
     - [ ] Intermediate
     - [ ] Advanced
 - Basic projects
-    1. [x] Tribute page ([live demo](https://codepen.io/Atomk/pen/grdXjZ))
-    2. [x] Personal portfolio page ([live demo](https://codepen.io/Atomk/pen/dMqLer))
+    1. [x] Tribute page ([view live](https://codepen.io/Atomk/pen/grdXjZ/left/))
+    2. [x] Personal portfolio page ([view live](https://codepen.io/Atomk/pen/dMqLer/left/))
 - Intermediate projects
-    1. [ ] Random quote machine
-    2. [ ] Local weather
-    3. [x] Wikipedia viewer ([live demo](https://codepen.io/Atomk/pen/jAJAxR))
-    4. [ ] Twitch.tv JSON API
+    1. [ ] Random quote generator ([view live](https://codepen.io/Atomk/pen/GqBwqg/left/))
+    2. [x] Local weather ([view live](https://codepen.io/Atomk/pen/NAoyGj/left/))
+    3. [x] Wikipedia viewer ([view live](https://codepen.io/Atomk/pen/jAJAxR/left/))
+    4. [ ] Twitch.tv JSON API ([view live](https://codepen.io/Atomk/pen/LkokxY/left/))
 - Advanced projects
-    1. [ ] JS calculator
-    2. [x] Pomodoro clock ([live demo](https://codepen.io/Atomk/pen/gwpRyq))
-    3. [ ] Tic Tac Toe
-    4. [ ] Simon Game
+    1. [ ] JS calculator ([view live](https://codepen.io/Atomk/pen/WGbOrZ/left/))
+    2. [x] Pomodoro clock ([view live](https://codepen.io/Atomk/pen/gwpRyq/left/))
+    3. [ ] Tic Tac Toe ([view live](https://codepen.io/Atomk/pen/vXGvWp/left/))
+    4. [ ] Simon Game ([view live](https://codepen.io/Atomk/pen/kkkjRJ/left/))
 
 ## 2) Data visualization
 
 - React projects
-    1. [ ] Markdown previewer
-    2. [ ] Camper leaderboard
-    3. [ ] Recipe box
+    1. [ ] Markdown previewer ([view live](https://codepen.io/Atomk/pen/QKAdkj/left/))
+    2. [ ] Camper leaderboard ([view live](https://codepen.io/Atomk/pen/mAzOdo/left/))
+    3. [ ] Recipe box ([view live](https://codepen.io/Atomk/pen/vXbOkR/left/))
     4. [ ] Game of Life
     5. [ ] Roguelike dungeon crawler game
 

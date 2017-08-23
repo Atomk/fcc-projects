@@ -1,0 +1,36 @@
+body {
+  padding: 25px 15px;
+  background-color: #9cf;  /* Fallback for old browsers */
+  /* background-image is set via jQuery */
+}
+
+#btn-switch-unit {
+  padding: 4px 6px 4px 4px;  /* Makes button look smaller */
+  font-size: inherit;  /* Takes font size from parent element */
+  display: none;  /* Hides the button. Will be shown via jQuery on API's response */
+}
+
+.transparent {
+  font-size: 20px;
+  max-width: 350px;
+  
+  background-color: #eee;  /* Fallback for old browsers */
+  background: rgba(250, 250, 250, 0.8);
+  border-radius: 15px;
+  
+  padding: 20px;
+  margin-bottom: 30px;
+}
+
+#icon {
+  margin: -5px auto;  /* Makes the icon closer to surrounding elements */
+}
+
+#title {
+  margin-bottom: 30px;
+}
+
+hr {
+  height: 2px;
+  background-color: #cacaca;
+}
