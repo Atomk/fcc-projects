@@ -18,7 +18,7 @@ Many of them were created with Codepen, you can find a link to view a live versi
     4. [ ] Twitch.tv JSON API
 - Advanced projects
     1. [ ] JS calculator
-    2. [ ] Pomodoro clock
+    2. [x] Pomodoro clock
     3. [ ] Tic Tac Toe
     4. [ ] Simon Game
 

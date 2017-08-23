@@ -1,0 +1,118 @@
+body {
+  position: relative;  /* Makes it possible to use "position: absolute" on child elements */
+  padding: 15px;
+  background-color: #22313F;
+  color: #fcfcfc;
+  font-family: sans-serif;
+}
+
+#settings {
+  display: none;  /* Will be shown via JS */
+  
+  position: absolute;  
+  top: 15px;  /* Allows the div to appear above the "showSettings* button */
+  z-index: 5;  /* Appear on top of everything else */
+  
+  background-color: #EC644B;
+  border-radius: 0.3em;
+}
+#settings-body {
+  padding: 8px;
+  padding-top: 0;
+  font-size: 1.2em;
+}
+#settings-body strong {
+  margin-right: 20px;
+}
+#settings-body button { /* + and - buttons */
+  padding: 0 4px;
+  margin-left: 5px;
+  margin-right: 5px;
+  /*background-color: #b44;*/
+}
+td {
+  padding: 2px;
+}
+
+button {
+  cursor: pointer;
+  
+  background-color: #EC644B;
+  color: #fcfcfc;
+  font-size: 1.3em;
+  padding: 5px 10px;
+  
+  border-radius: 0.3em;
+  border: none;  /* Remove default border */
+}
+
+/* Container for canvas and time string */
+#timer-container {
+  position: relative;  /* Makes it possible to use "position: absolute" on #time */
+}
+
+#timertype {
+  display: none;
+  position: absolute;
+  top: 26%;
+  font-family: monospace;
+  font-size: 1.3em;
+}
+
+/* Time string (mm:ss) */
+#time {
+  font-size: 3em;
+  position: absolute;
+  top: 38%;  /* Put time string at the center of the canvas */
+}
+
+canvas {
+  /*
+  Tried to make the canvas responsive...
+  min-height: 200px;
+  min-width: 200px;
+  height: 100%;
+  width: 100%;*/
+  display: block;  /* Required to center the canvas */
+  margin: 0 auto;  /* Center the canvas */
+  margin-bottom: 22px;
+}
+canvas:hover {
+  /*border: 1px solid red;*/
+/* These two are not applied if alone. Why? -> Maybe because "border-style" is missing.
+  border-color: blue;
+  border-width: 100px;*/
+}
+
+
+/*****  FOOTER  *****/
+
+
+footer {
+  font-size: 0.9em;
+  /* Why the footer ignores body padding? */
+  position: fixed;
+  top: 90%;
+  left: 0px;  /* For some reason I need this to center text properly */
+}
+footer a {
+  text-decoration: none;  /* Hides default underline */
+  color: #E74C3C;
+}
+footer a:hover {
+  color: #C0392B;
+}
+
+
+/******  HELPER CLASSES  ******/
+
+
+.text-center {
+  text-align: center;
+  width: 100%;
+}
+
+.disabled {
+  background-color: #666;  /* Gray background */
+  cursor: not-allowed;
+}

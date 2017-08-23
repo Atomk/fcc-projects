@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Pomodoro Clock</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css'>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- Settings button -->
+  <button type="button" id="showSettings">
+    <i class="fa fa-cog" aria-hidden="true"></i>
+  </button>
+
+  <div id="settings">
+    <button type="button" id="closeSettings">
+      <i class="fa fa-close" aria-hidden="true"></i>
+    </button>
+    <div id="settings-body">
+      <table>
+        <tr>
+          <td><strong>Session:</strong></td>
+          <td>
+            <!-- You don't want the td to have 100% width... -->
+            <div class="text-center">
+              <button type="button" class="btn-session">-</button>
+              <span id="session-duration"></span>
+              <button type="button" class="btn-session">+</button>
+            </div>          
+          </td>
+        </tr>
+        <tr>
+          <td><strong>Break:</strong></td>
+          <td>
+            <div class="text-center">
+              <button type="button" class="btn-break">-</button>
+              <span id="break-duration"></span>
+              <button type="button" class="btn-break">+</button>
+            </div>
+          </td>
+        </tr>
+      </table>
+    </div>
+  </div>
+
+  <div id="timer-container">
+    <canvas height="220px" width="220px"></canvas>
+    <span id="timertype" class="text-center"></span>
+    <div id="time" class="text-center">00:00</div>
+  </div>
+
+  <div class="text-center">
+    <button id="play-stop" type="button">
+      <i class="fa fa-play" aria-hidden="true"></i>
+    </button>
+  </div>
+
+  <footer class="text-center">Made by <a href="https://www.freecodecamp.com/atomk" target="_blank">Atomk</a> for <a href="https://www.freecodecamp.com" target="_blank">freeCodeCamp</a>.</footer>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
+  <script src="js/index.js"></script>
+</body>
+</html>
