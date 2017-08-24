@@ -58,7 +58,7 @@ function getData(name, index) {
       $(id + " .media-heading").append(name);
       $(id + " .media-body").append("Channel not available.");
       $(id).addClass("disabled"); // Disable link since channel does not exist
-      $(id + " img").prop("src", "http://i.imgur.com/8fzfrJ2.jpg");
+      $(id + " img").prop("src", "img/tvnoise2.jpg");
       $(id + " img").prop("alt", "Channel logo not available");
       $(id).fadeIn(200);  // We are finished with this channel, show it
     }
@@ -69,7 +69,7 @@ function getData(name, index) {
         $(id + " img").prop("src", c.logo);
       } else {
         // If the channel does not have an image
-        $(id + " img").prop("src", "http://i.imgur.com/8fzfrJ2.jpg");
+        $(id + " img").prop("src", "img/tvnoise2.jpg");
       }
       
       $(id + " img").prop("alt", "Channel logo");
