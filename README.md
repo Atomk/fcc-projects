@@ -9,25 +9,25 @@ Many of them were created with Codepen, you can find a link to view a live versi
     - [ ] Intermediate
     - [ ] Advanced
 - Basic projects
-    1. [x] Tribute page ([view live](https://codepen.io/Atomk/pen/grdXjZ/left/))
-    2. [x] Personal portfolio page ([view live](https://codepen.io/Atomk/pen/dMqLer/left/))
+    1. [x] Tribute page ([view](https://codepen.io/Atomk/pen/grdXjZ/left/))
+    2. [x] Personal portfolio page ([view](https://codepen.io/Atomk/pen/dMqLer/left/))
 - Intermediate projects
-    1. [ ] Random quote generator ([view live](https://codepen.io/Atomk/pen/GqBwqg/left/))
-    2. [x] Local weather ([view live](https://codepen.io/Atomk/pen/NAoyGj/left/))
-    3. [x] Wikipedia viewer ([view live](https://codepen.io/Atomk/pen/jAJAxR/left/))
-    4. [ ] Twitch.tv JSON API ([view live](https://codepen.io/Atomk/pen/LkokxY/left/))
+    1. [ ] Random quote generator ([view](https://codepen.io/Atomk/pen/GqBwqg/left/))
+    2. [x] Local weather ([view](https://codepen.io/Atomk/pen/NAoyGj/left/))
+    3. [x] Wikipedia viewer ([view](https://codepen.io/Atomk/pen/jAJAxR/left/))
+    4. [ ] Twitch.tv JSON API ([view](https://codepen.io/Atomk/pen/LkokxY/left/))
 - Advanced projects
-    1. [ ] JS calculator ([view live](https://codepen.io/Atomk/pen/WGbOrZ/left/))
-    2. [x] Pomodoro clock ([view live](https://codepen.io/Atomk/pen/gwpRyq/left/))
-    3. [ ] Tic Tac Toe ([view live](https://codepen.io/Atomk/pen/vXGvWp/left/))
-    4. [ ] Simon Game ([view live](https://codepen.io/Atomk/pen/kkkjRJ/left/))
+    1. [ ] JS calculator ([view](https://codepen.io/Atomk/pen/WGbOrZ/left/))
+    2. [x] Pomodoro clock ([view](https://codepen.io/Atomk/pen/gwpRyq/left/))
+    3. [ ] Tic Tac Toe ([view](https://codepen.io/Atomk/pen/vXGvWp/left/))
+    4. [ ] Simon Game ([view](https://codepen.io/Atomk/pen/kkkjRJ/left/))
 
 ## 2) Data visualization
 
 - React projects
-    1. [ ] Markdown previewer ([view live](https://codepen.io/Atomk/pen/QKAdkj/left/))
-    2. [ ] Camper leaderboard ([view live](https://codepen.io/Atomk/pen/mAzOdo/left/))
-    3. [ ] Recipe box ([view live](https://codepen.io/Atomk/pen/vXbOkR/left/))
+    1. [ ] Markdown previewer ([view](https://codepen.io/Atomk/pen/QKAdkj/left/))
+    2. [ ] Camper leaderboard ([view](https://codepen.io/Atomk/pen/mAzOdo/left/))
+    3. [ ] Recipe box ([view](https://codepen.io/Atomk/pen/vXbOkR/left/))
     4. [ ] Game of Life
     5. [ ] Roguelike dungeon crawler game
 
