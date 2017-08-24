@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Twitch streamers status</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css'>
+  <link rel='stylesheet prefetch' href='https://fonts.googleapis.com/css?family=Exo:900'>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="container">
+    <h1 class="text-center">Twitch STATUS</h1>
+  
+    <div id="box" class="center-block">
+      <div id="filter" class="btn-group btn-group-justified" role="group" aria-label="Buttons for filtering channels by status">
+        <div class="btn-group" role="group">
+          <button id="filter-all" type="button" class="btn btn-primary active">All</button>
+        </div>
+        <div class="btn-group" role="group">
+          <button id="filter-online" type="button" class="btn btn-success">Online</button>
+        </div>
+        <div class="btn-group" role="group">
+          <button id="filter-offline" type="button" class="btn btn-warning">Offline</button>
+        </div>
+      </div>
+      <p id="msg-empty" class="text-center">No channels to show :(</p>
+      <!-- Will be filled via JavaScript-->
+      <div id="channels-list" class="list-group">
+      </div>
+    </div>
+    
+    <footer class="text-center">Made by <a href="https://www.freecodecamp.com/atomk" target="_blank">Atomk</a> for <a href="https://www.freecodecamp.com" target="_blank">freeCodeCamp</a>.
+    </footer>
+  </div>
+
+  <script src='https://code.jquery.com/jquery-2.2.4.min.js'></script>
+  <script src="js/index.js"></script>
+</body>
+</html>

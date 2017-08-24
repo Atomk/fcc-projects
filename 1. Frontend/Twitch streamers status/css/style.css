@@ -1,0 +1,57 @@
+body {
+  /*overflow-y: scroll; /* Avoids an appearing/disappearing scrollbar when channel list length goes from longer than the page to shorter and viceversa */
+  padding: 18px 10px;
+  font-size: 1.4em;
+  background-color: #44355B;
+}
+
+h1 {
+  font-family: 'Exo', sans-serif;
+  font-size: 45px;
+  margin-bottom: 30px;
+  color: #faf9fa;
+  text-shadow: -2px 2px 6px #000; /* CSS3 (not supported on IE10 or older) */
+}
+
+#box {
+  max-width: 500px;
+}
+
+#filter {
+  margin-bottom: 20px;
+}
+
+#msg-empty {
+  display: none;  /* Will be changed in JavaScript when needed */
+  color: #faf9fa;
+  font-size: 1.8em;
+  font-weight: 500;
+}
+
+/* This should be the same as the selector below, but does not work without !important. Why? */
+/*.media-object {
+  max-width: 64px !important;
+  padding: 3px !important;
+}*/
+
+#channels-list a img {
+  max-width: 64px;
+  padding: 3px;
+}
+
+.media-heading {
+  font-weight: 600;
+}
+
+footer {
+  color: #faf9fa;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+footer a {
+  color: #b4a8c2;
+}
+footer a:hover {
+  color: #A799B7;
+  text-decoration: none;  /* Removes the default underline when hovering links */
+}

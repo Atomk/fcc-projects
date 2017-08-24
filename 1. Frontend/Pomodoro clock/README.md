@@ -8,7 +8,7 @@ A timer for Pomodoro sessions. The design is inspired by the default Android tim
 - I can customize the length of each pomodoro.
 
 ## To-do
-I'm quite proud of it, however there's a few things I'd like to implement/fix at some point:
+I'm quite happy with the result, however there's a few things I'd like to implement/fix at some point:
 - You can stop the timer but you can't pause/resume it.
 - When in mobile landscape view, the footer overlaps the stop button.
 - There's no sound or notification on session end.

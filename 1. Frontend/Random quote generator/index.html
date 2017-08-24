@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Random Quote Generator</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"/>
+  <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css'>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="container-fluid">
+    <img src="http://img01.deviantart.net/3d64/i/2005/072/8/7/bleach_logo_by_bryoz.png" id="logo" class="img-responsive center-block" alt="Bleach logo">
+    
+    <div id="quote-container" class="center-block">
+      <div class="row">
+        <div class="col-sm-4">
+          <img id="authorimg" src="img/error.jpg" class="img-responsive img-thumbnail center-block" alt="author of the quote">
+        </div>
+        <div class="col-sm-8">
+          <blockquote id="quote">If you read this, maybe you disabled Javascript...or there's something wrong :(</blockquote>
+        </div>
+      </div><!-- .row -->
+    </div><!-- /#quote-container-->
+  
+    <div class="text-center">
+      <button type="button" class="btn" id="newquote">New quote</button>
+      <button type="button" class="btn btn-info" id="tweet"><i class="fa fa-twitter" aria-hidden="true"></i> Tweet</button>
+    </div>
+  
+    <div id="footer-note" class="text-center">
+      Made by <a href="https://www.freecodecamp.com/atomk" target="_blank">Atomk</a> for <a href="https://www.freecodecamp.com" target="_blank">freeCodeCamp</a>.
+    </div><!-- /#footer-note -->
+  </div><!-- /.container-fluid -->
+  
+  <script src='https://code.jquery.com/jquery-2.2.4.min.js'></script>
+  <script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js'></script>
+  <script src="js/index.js"></script>    
+</body>
+</html>

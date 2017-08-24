@@ -12,10 +12,10 @@ Many of them were created with Codepen, you can find a link to view a live versi
     1. [x] Tribute page ([view](https://codepen.io/Atomk/pen/grdXjZ/left/))
     2. [x] Personal portfolio page ([view](https://codepen.io/Atomk/pen/dMqLer/left/))
 - Intermediate projects
-    1. [ ] Random quote generator ([view](https://codepen.io/Atomk/pen/GqBwqg/left/))
+    1. [x] Random quote generator ([view](https://codepen.io/Atomk/pen/GqBwqg/left/))
     2. [x] Local weather ([view](https://codepen.io/Atomk/pen/NAoyGj/left/))
     3. [x] Wikipedia viewer ([view](https://codepen.io/Atomk/pen/jAJAxR/left/))
-    4. [ ] Twitch.tv JSON API ([view](https://codepen.io/Atomk/pen/LkokxY/left/))
+    4. [x] Twitch streamers status ([view](https://codepen.io/Atomk/pen/LkokxY/left/))
 - Advanced projects
     1. [ ] JS calculator ([view](https://codepen.io/Atomk/pen/WGbOrZ/left/))
     2. [x] Pomodoro clock ([view](https://codepen.io/Atomk/pen/gwpRyq/left/))

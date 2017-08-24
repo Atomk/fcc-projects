@@ -1,0 +1,59 @@
+body {
+  background-color: #1b1b1b;  /* Fallback background if image could not be loaded */
+  background-image: url(../img/background.png);
+  margin-bottom: 45px;  /* separates content from the bottom of the page, noticeable in mobile view */
+}
+
+.container-fluid {
+  max-width: 800px;  /* prevents content from growing too large */
+  
+  padding-left: 35px;  /* prevents content from "touching" the edges of the screen */
+  padding-right: 35px;
+}
+
+#logo {
+  margin-top: 40px;
+  margin-bottom: 50px;
+  max-height: 90px;    /* makes the image smaller keeping original ratio */
+}
+
+#quote-container {
+  padding: 20px;
+  margin-bottom: 20px;  /* distance from the two buttons */
+  /*opacity: 0.1; -> nope, it makes child elements transparent too */
+  background-color: #0a0a0a;  /* Fallback background color, suggested by CSSLint*/
+  background: rgba(0%, 0%, 0%, 0.3);  /* pure black with 30% opacity */
+  border-radius: 10px;
+}
+
+#authorimg {
+  padding: 8px;  /* increases size of thumbnail's white frame */
+}
+
+#quote {
+  color: #ddd;  /* a brighter color to make the quote more readable */
+  font-size: 20px;
+  /* Adjustments to Bootstrap's default style */
+  padding-right: 0px;
+  margin-bottom: 0px;
+  margin-left: -7px;
+}
+
+/* This CSS is applied only when the screen width is < 768px, since according to Bootstrap docs under that value "mobile view" is activated.
+Thanks --> http://stackoverflow.com/questions/16410659/bootstrap-removing-padding-or-margin-when-screen-size-is-smaller */
+@media (max-width: 767px) {
+  #quote {
+    margin-top: 20px;
+    margin-left: 0px;
+  }  
+}
+
+.btn {
+  /* Increases font size in the buttons ("button" selector is not enough, have to override this class) */
+  font-size: 16px;
+}
+
+#footer-note {
+  color: #ddd;
+  margin-top: 55px;
+}
