@@ -1,0 +1,101 @@
+body {
+  /*padding: 15px;*/
+  padding-top: 1em;
+  font-family: sans-serif;
+  color: #333;
+}
+
+#enemy-screen,
+#intro-screen {
+  max-width: 420px;
+  text-align: center;  /* Centers h2 and buttons */
+}
+#enemy-screen h2,
+#intro-screen h2 {
+  padding: 0 15px;  /* Prevent text from touching the edges of the screen */
+}
+#intro-screen button {
+  font-size: 3.4em;
+  padding: 3% 6%;  /* With "%" padding is based on container's width */
+  margin: 0 4%;  /* Create distance between buttons */
+}
+#enemy-screen button {
+  display: block;
+  margin: 0.6em auto;
+  font-size: 1.9em;
+  padding: 0.2em 0.4em;
+}
+
+/****** GAME GRID ******/
+
+
+table {
+  max-width: 420px;
+  max-height: 420px;
+  width: 85vw;  /* 85% of the viewport (body) width */
+  height: 85vw;
+  border-spacing: 4px 2px;  /* Space between cells */
+}
+td {
+  padding: 0;
+  width: 33%;  /* Every cell should be 1/3 of table height (and width) */
+  height: 33%;
+}
+.cell {
+  font-size: 3.4em;
+  font-size: 16vmin;  /* Responsive font size! Awesome! */
+  height: 100%;  /* Fill the container (td) */
+  width: 100%;
+}
+.wincell {
+  background-color: #c88;  /* Red background to highlight the "winning" line */
+}
+.player-two {
+  color: #933;
+}
+
+/****** BUTTONS ******/
+
+
+button {
+  cursor: pointer;  /* Visually show that you can interact with the button */
+  border: none;  /* Hides default border (and color, for some reason */
+  color: #333;
+}
+
+#restart {
+  font-size: 1.2em;
+  padding: 5px 10px;
+  /* Center horizontally */
+  margin: 20px auto;
+  display: block;
+}
+
+.choose,
+#restart {
+  border-radius: 0.3em;
+}
+.choose:active,
+#restart:active {
+  background-color: #ccc;  /* Darker color when the button is pressed */
+}
+
+.btn-green {
+  background-color: #70d260;
+}
+.btn-green:active {
+  /* Override the active background for #restart */
+  background-color: #60c050 !important;
+}
+
+/******  HELPER CLASSES  ******/
+
+.center {
+  margin: 0 auto;
+}
+.hidden {
+  display: none;
+}
+.cannotuse {
+  cursor: not-allowed;
+}

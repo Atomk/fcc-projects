@@ -1,0 +1,126 @@
+body, html {
+  height: 100%;  /* Makes the body cover the whole viewport */
+  overflow: hidden;  /* Because for some reason 100% height makes the four buttons flow out...*/
+}
+
+body {
+  margin: 0;
+  background-color: #111;
+  color: #fff;
+  font-family: sans-serif;
+}
+
+#ui {
+  /* Put at the center of the viewport */
+  position: absolute;
+  top: 14vh;
+  bottom: 14vh;
+  right: 12vw;
+  left: 12vw;
+  
+  z-index: 2;  /* Put "above" the buttons */
+  
+  background-color: #1d1d1d;
+  text-align: center;
+  border: 10px solid #444;
+  border-radius: 1em;
+}
+#ui div {
+  padding: 0 2em;
+}
+
+h1 {
+  font-size: 2.2em;
+  margin: 0.8em 0.8em;
+  font-family: monospace;
+  text-align: center;
+}
+
+p {
+  margin: 0.5em;  /* Reduces space between p elements (looks like less line height) */
+}
+
+#message {
+  color: tomato;
+}
+
+footer {
+  font-size: 1.1em;
+  position: absolute;
+  bottom: 1em;  /* Distance from footer bottom and ui bottom */
+  left: 10%;  /* Center horizontally */
+  right: 10%;
+  font-family: monospace;
+}
+footer a {
+  text-decoration: none;  /* Hides default underline */
+  color: #86d;
+}
+footer a:hover {
+  color: #97e;
+}
+
+
+/******  TABLE (4 buttons)  ******/
+
+
+table {
+  height: 100%;  /* Fill the body */
+  width: 100%;
+  border-spacing: 0;
+}
+tr {
+  height: 50%;
+}
+td {
+  padding: 0;
+  margin: 0;
+  width: 50%;
+}
+
+
+/******  BUTTONS & COLORS  ******/
+
+button {
+  cursor: pointer;
+  border: none;
+}
+.disabled {
+  cursor: not-allowed !important;  /* Must override .btn-simon property */
+}
+
+.btn-simon {
+  cursor: pointer;
+  padding: 0;  /* Creates spaces between buttons if not set to zero */
+  height: 100%;
+  width: 100%;
+}
+
+#start {
+  background-color: #999;
+  font-size: 1.3em;
+  padding: 0.5em;
+  border: 0.2em solid #555;
+  border-radius: 0.5em;
+  margin-bottom: 1.2em;
+}
+#start:hover {
+  background-color: #aaa;
+}
+
+.green {
+  background-color: #30A229;
+}
+.red {
+  background-color: #D74916;
+}
+.yellow {
+  background-color: #DEB600;
+}
+.blue {
+  background-color: #1970A9;
+}
+.highlight {
+  -webkit-filter: brightness(130%); /* Chrome, Safari, Opera */
+  filter: brightness(130%);
+}

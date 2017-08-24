@@ -19,8 +19,8 @@ Many of them were created with Codepen, you can find a link to view a live versi
 - Advanced projects
     1. [ ] JS calculator ([view](https://codepen.io/Atomk/pen/WGbOrZ/left/))
     2. [x] Pomodoro clock ([view](https://codepen.io/Atomk/pen/gwpRyq/left/))
-    3. [ ] Tic Tac Toe ([view](https://codepen.io/Atomk/pen/vXGvWp/left/))
-    4. [ ] Simon Game ([view](https://codepen.io/Atomk/pen/kkkjRJ/left/))
+    3. [x] Tic Tac Toe ([view](https://codepen.io/Atomk/pen/vXGvWp/left/))
+    4. [x] Simon Game ([view](https://codepen.io/Atomk/pen/kkkjRJ/left/))
 
 ## 2) Data visualization
 
