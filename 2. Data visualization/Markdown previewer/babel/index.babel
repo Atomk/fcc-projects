@@ -1,0 +1,61 @@
+var MarkdownBox = React.createClass({
+  getInitialState: function() {
+    return { text: "# Yayyy markdown\nThis was kind of **hard** to make with `React` but it will get _easier_ with practice.\n\n>_Put inspiring quote here_\n\n- Harder\n- Better\n- Faster\n- Coder" };
+  },
+  updateMarkup: function(newText) {
+    this.setState({ text: newText }); 
+  },
+  render: function() {
+    return (
+      <div className="fill">
+          <MarkdownText handleChange={ this.updateMarkup }>
+            { this.state.text }
+          </MarkdownText>
+          <MarkdownPreview>
+            { this.state.text }
+          </MarkdownPreview>
+      </div>
+    );
+  }
+});
+
+
+
+var MarkdownText = React.createClass({
+  handleChange: function() {
+    this.props.handleChange( this.refs.myText.value );
+  },
+  render: function() {
+    return (
+      <textarea onChange={ this.handleChange }
+        ref="myText"
+        className="markdownText"
+        placeholder="Write some markdown!"
+        defaultValue={ this.props.children }>
+      </textarea>
+    );
+  }
+});
+
+
+
+var MarkdownPreview = React.createClass({
+  getRawMarkup: function() {
+    var raw = marked(this.props.children, { sanitize: true });
+    return { __html: raw }
+  },
+  render: function() {
+    return (
+      <div className="markdownPreview"
+        dangerouslySetInnerHTML={ this.getRawMarkup() }>
+      </div>
+    );
+  }
+});
+
+
+
+ReactDOM.render(
+  <MarkdownBox />,
+  document.getElementById('app')
+);

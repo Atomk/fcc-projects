@@ -1,0 +1,116 @@
+var CamperBox = React.createClass({
+  getInitialState: function() {
+    return { data: [], mode: this.props.defaultMode };
+  },
+  componentDidMount: function() {
+    /* Decide what kind of leaderboard to show when application starts */
+    if(this.state.mode === "recent")
+      this.getLeaderboardRecent();
+    else
+      this.getLeaderboardTotal();
+  },
+  getLeaderboardRecent: function() {
+    /* The first condition allows to make a request when the application starts, the second condition allows to ignore clicks on the active column, since the data is already loaded */
+    if(this.state.data.length === 0 || this.state.mode !== "recent") {
+      $.getJSON("https://fcctop100.herokuapp.com/api/fccusers/top/recent", function(json) {
+        this.setState({ data: json, mode: "recent" });
+      }.bind(this));
+    }
+  },
+  getLeaderboardTotal: function() {
+    if(this.state.data.length === 0 || this.state.mode !== "total") {
+       $.getJSON("https://fcctop100.herokuapp.com/api/fccusers/top/alltime", function(json) {
+        this.setState({ data: json, mode: "total" });
+      }.bind(this));
+    }
+  },
+  render: function() {
+    /* Make "active" the column whose data was loaded */
+    var firstSpan = "sort", secondSpan = "sort";
+    if(this.state.mode === "recent")
+      firstSpan += " active";
+    else
+      secondSpan += " active";
+        
+    return (
+      <div className="panel panel-default">
+        <div className="panel-heading text-center">Leaderboard</div>
+          <table className="table table-bordered table-striped">
+            <thead>
+              <tr>
+                <th>#</th>
+                <th>Camper name</th>
+                <th className="text-center">
+                  <span className={ firstSpan }
+                    onClick={ this.getLeaderboardRecent }>
+                    Points in last 30 days
+                  </span>
+                </th>
+                <th className="text-center">
+                  <span className={ secondSpan }
+                    onClick={ this.getLeaderboardTotal }>
+                    Total points
+                  </span>
+                </th>
+              </tr>
+            </thead>
+            
+            <CamperList data={ this.state.data }/>
+          </table>
+      </div>
+    );
+  }
+});
+
+var CamperList = React.createClass({
+  /* Esempio di messaggio:
+  {"username":"sjames1958gm",
+  "img":"https://avatars.githubusercontent.com/u/4639625?v=3"
+  "alltime":3506,
+  "recent":513,
+  "lastUpdate":"2016-10-16T00:23:07.900Z"} */
+  
+  render: function() {
+    var rows = this.props.data.map(function(camper, i) {
+        return <CamperItem
+               key={ i }
+               index={ i+1 }
+               imgsrc={ camper.img }
+               camperName={ camper.username }
+               last30days={ camper.recent }
+               totalPoints={ camper.alltime }
+               />;
+    });
+    
+    return <tbody>{ rows }</tbody>;
+  }
+});
+
+var CamperItem = React.createClass({
+  render: function() {
+    return (
+      <tr key={ this.props.index }>
+        <td>{ this.props.index }</td>
+        <td>
+          <img
+            alt="Avatar image"
+            src={ this.props.imgsrc }
+            className="profile-pic" />
+          <a href={ "https://www.freecodecamp.com/" + this.props.camperName.toLowerCase() }
+            target="_blank">
+            { this.props.camperName }
+          </a>
+        </td>
+        <td className="text-center">{ this.props.last30days }</td>
+        <td className="text-center">{ this.props.totalPoints }</td>
+      </tr>
+    );
+  }
+});
+
+// modes: "recent" or "total"
+// "total" is the default if a different value is passed
+ReactDOM.render(
+  <CamperBox defaultMode="recent" />,
+  document.getElementById("content")
+);

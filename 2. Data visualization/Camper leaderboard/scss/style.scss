@@ -1,0 +1,78 @@
+$green: #373;
+
+html, body {
+  height: 100%;
+  font-family: Lato, sans-serif;
+  font-size: 16px;
+}
+
+
+/**********  NAVBAR  **********/
+
+
+.navbar {
+  background-color: $green;
+  border: none;
+  
+  .navbar-brand {
+    padding: 0.4em;  /* Reduce padding to make FCC logo bigger */
+
+    img {
+      height: 100%;  /* Can't display SVG without setting a dimension */
+    }
+  }
+}
+
+
+/**********  LEDERBOARD CONTAINER  **********/
+
+
+.panel-default .panel-heading {
+  font-size: 1.6em;
+  padding: 0.2em;
+  background-color: $green;
+  color: white;
+}
+
+
+/**********  TABLE  **********/
+
+
+.profile-pic {
+  height: 2.2em;  /* Prevents the image to be displayed in its full size */
+  border-radius: 0.2em;
+  margin-right: 0.8em;  /* Distance between profile pic and username */
+}
+
+.sort {
+  cursor: pointer;
+  color: darkgreen;
+}
+.sort:hover {
+  color: green;
+}
+
+/* Selector for element that has both "sort" and "active" classes */
+.sort.active {
+  text-decoration: underline;
+}
+
+
+/**********  FOOTER  **********/
+
+
+.footer {
+  height: 60px;
+  background-color: $green;
+  color: white;
+  padding: 20px;
+  
+  /* Use a light gray for the links */
+  a {
+    color: #ccc;
+  }
+  a:hover {
+    color: #bbb;
+    text-decoration: none;
+  }
+}

@@ -25,8 +25,8 @@ Many of them were created with Codepen, you can find a link to view a live versi
 ## 2) Data visualization
 
 - React projects
-    1. [ ] Markdown previewer ([view](https://codepen.io/Atomk/pen/QKAdkj/left/))
-    2. [ ] Camper leaderboard ([view](https://codepen.io/Atomk/pen/mAzOdo/left/))
+    1. [x] Markdown previewer ([view](https://codepen.io/Atomk/pen/QKAdkj/left/))
+    2. [x] Camper leaderboard ([view](https://codepen.io/Atomk/pen/mAzOdo/left/))
     3. [ ] Recipe box ([view](https://codepen.io/Atomk/pen/vXbOkR/left/))
     4. [ ] Game of Life
     5. [ ] Roguelike dungeon crawler game
