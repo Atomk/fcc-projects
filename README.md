@@ -17,7 +17,7 @@ Many of them were created with Codepen, you can find a link to view a live versi
     3. [x] Wikipedia viewer ([view](https://codepen.io/Atomk/pen/jAJAxR/left/))
     4. [x] Twitch streamers status ([view](https://codepen.io/Atomk/pen/LkokxY/left/))
 - Advanced projects
-    1. [ ] JS calculator ([view](https://codepen.io/Atomk/pen/WGbOrZ/left/))
+    1. [x] JS calculator ([view](https://codepen.io/Atomk/pen/WGbOrZ/left/))
     2. [x] Pomodoro clock ([view](https://codepen.io/Atomk/pen/gwpRyq/left/))
     3. [x] Tic Tac Toe ([view](https://codepen.io/Atomk/pen/vXGvWp/left/))
     4. [x] Simon Game ([view](https://codepen.io/Atomk/pen/kkkjRJ/left/))

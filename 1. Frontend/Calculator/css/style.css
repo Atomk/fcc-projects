@@ -1,0 +1,109 @@
+body {
+  padding: 0px 15px;
+  background-color: #fff;
+  font-family: Calibri, sans-serif;
+}
+
+.more-margin {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.calc {
+  margin: 0 auto;  /* Center block horizontally */
+  padding: 15px;
+  max-width: 350px;
+  
+  background-color: #eee;
+  border-radius: 2px;
+  box-shadow: 0px 5px 10px 1px #777;
+}
+
+table {
+  width: 100%;  /* Makes the table fill all the calculator's width */
+}
+td {
+  width: 25%;  /* Makes the buttons' width equal */
+  padding: 0.2em; /* Increases space between buttons */
+}
+
+/*****  SCREEN  *****/
+
+.screen {
+  margin: 4px 5px 10px 5px;
+  padding: 8px 10px 2px 10px;
+  text-align: right;
+  color: #010;
+  
+  background-color: #7a8;
+  min-height: 20px;
+  font-family: monospace;
+  font-size: 2.6em;
+  overflow: hidden;
+  white-space: nowrap;
+  border-radius: 2px;
+  box-shadow: 0px 2px 12px 1px #567 inset;
+  /*overflow-x: auto;  /* To display numbers longer than the screen's width*/
+}
+#scr-top {
+  font-size: 0.4em;
+  min-height: 15px;  /* fill the space even if there's no content */
+}
+#scr-main {
+  margin-top: -4px;
+  min-height: 1em;
+}
+
+/*****  KEYBOARD  *****/
+
+.keyboard button {
+  width: 100%;
+  height: 1.3em;
+  background-color: #444;
+  border: none;  /* hides default borders of table cells */
+  
+  font-weight: 500;
+  font-size: 2em;
+  /*font-family: monospace;*/
+  color: white;
+  
+  border-radius: 0.2em;
+  box-shadow: 2px 2px 4px 1px #8c8c8c;
+  cursor: pointer;
+}
+.keyboard button:hover {
+  /* Highlights a button whwn the mouse is above it */
+  box-shadow: 2px 2px 4px 1px #6a6a6a;
+}
+.keyboard button:active {
+  /* Darker background when the button is pressed */
+  background-color: #222;
+}
+.keyboard .special {
+  /* Make "special" buttons red */
+  background-color: #844;
+}
+.keyboard .special:active {
+  background-color: #622;
+}
+.keyboard .operator {
+  /* Use a ligher color for operators, makes visually clear they are not numbers */
+  background-color: #666;
+}
+.keyboard .operator:active {
+  background-color: #505050;
+}
+
+/*****  FOOTER  *****/
+
+footer a {
+  text-decoration: none;  /* Hides default underline */
+  color: #24b;
+}
+footer a:hover {
+  color: #56d;
+}
