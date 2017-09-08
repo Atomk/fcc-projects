@@ -1,0 +1,28 @@
+{
+  "name": "atomk-fcc-reqheaderparser",
+  "version": "0.1.0",
+  "description": "What am I about?",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.15.3"
+  },
+  "engines": {
+    "node": "8.x"
+  },
+  "repository": {
+    "url": "https://glitch.com/edit/#!/atomk-fcc-reqheaderparser"
+  },
+  "license": "MIT",
+  "keywords": [
+    "node",
+    "glitch",
+    "express",
+    "freecodecamp",
+    "header",
+    "parser",
+    "api"
+  ]
+}

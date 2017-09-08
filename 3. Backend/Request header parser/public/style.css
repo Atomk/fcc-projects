@@ -1,0 +1,34 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: helvetica, arial, sans-serif;
+  margin: 25px;
+}
+
+h1 {
+  font-weight: bold;
+  color: teal;
+}
+
+p {
+  line-height: 1.3em;  /* Increase a bit distance between lines of text */
+}
+
+code {
+  border-radius: 3px;
+  background-color: whitesmoke;
+  color: teal;
+  padding: 1px 4px;
+}
+
+footer {
+  margin-top: 30px;
+  padding-top: 25px;
+  border-top: 1px solid lightgrey;
+}
+
+footer > a {
+  color: #BBBBBB;
+}
