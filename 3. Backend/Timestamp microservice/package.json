@@ -1,0 +1,27 @@
+{
+  "name": "atomk-fcc-timestamp",
+  "version": "0.1.0",
+  "description": "What am I about?",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.15.3"
+  },
+  "engines": {
+    "node": "8.x"
+  },
+  "repository": {
+    "url": "https://glitch.com/edit/#!/atomk-fcc-timestamp"
+  },
+  "license": "MIT",
+  "keywords": [
+    "node",
+    "glitch",
+    "express",
+    "freecodecamp",
+    "timestamp",
+    "api"
+  ]
+}
