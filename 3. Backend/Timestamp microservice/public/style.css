@@ -12,10 +12,6 @@ h1 {
   color: pink;
 }
 
-.bold {
-  font-weight: bold;
-}
-
 p {
   max-width: 600px;
   line-height: 1.2em;  /* Increase a bit distance between lines of text */

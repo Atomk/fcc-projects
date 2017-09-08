@@ -3,7 +3,7 @@ Timestamp Microservice
 
 A simple timestamp conversion API, from natural language to numbers and vice-versa.
 
-Timestamps values must be provided in milliseconds, or you'll get wrong dates! If the conversion gives unexpected results try to add three zeros at the end of your timestamp.
+Timestamps values **must be provided in milliseconds**, or you'll get wrong dates! If the conversion gives unexpected results try to add three zeros at the end of your timestamp.
 
 User stories
 -------------------

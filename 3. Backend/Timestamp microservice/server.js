@@ -23,7 +23,7 @@ app.get("/:time", function(req, res) {
   let timestampDate = Date.parse(req.params.time);  // If the parameter is a valid date string, timestampDate will be a timestamp value. If not, will be NaN
   
   if(!isNaN(timestamp)) {
-    timestamp *= 1000;  // Because FCC examples use timestamps in seconds, but Date works with milliseconds.
+    //timestamp *= 1000;  // Because FCC examples use timestamps in seconds, but Date works with milliseconds.
                         // Proof: console.log(new Date(1450137600)) will output a date with year 1970, but it should be 2015, so this means the parameter is a value in seconds
     obj.unix = timestamp;
     obj.natural = new Date(timestamp).toLocaleString("en-Us", DATE_OPTIONS);
