@@ -41,9 +41,9 @@ Many of them were created with Codepen, you can find a link to view a live versi
 ## 3) Back-end
 
 - API Projects
-    1. [x] Timestamp Microservice ([view](https://atomk-fcc-timestamp.glitch.me))
+    1. [x] Timestamp Microservice ([view](https://atomk-fcc-timestamp.glitch.me/))
     2. [x] Request Header Parser Microservice ([view](https://atomk-fcc-reqheaderparser.glitch.me/))
-    3. [ ] URL Shortener Microservice ([view](https://atomk-fcc-urlshort.glitch.me/))
+    3. [x] URL Shortener Microservice ([view](https://atomk-fcc-urlshort.glitch.me/))
     4. [ ] Image Search Abstraction Layer
     5. [ ] File Metadata Microservice
 

@@ -1,0 +1,48 @@
+<!-- This is a static file -->
+<!-- served from your routes in server.js -->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>URL Shortener Microservice</title>
+    <meta name="description" content="A cool thing made with Glitch">
+    <link id="favicon" rel="icon" href="https://glitch.com/edit/favicon-app.ico" type="image/x-icon">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/style.css">
+  </head>
+  <body>
+    <header>
+      <h1>URL Shortener Microservice</h1>
+    </header>
+
+    <main>
+      <p>
+        You can pass this API an URL and it will respond with a shortened link to access that URL.<br/>
+        <strong>Note: the URL you provide must start with ftp://, http:// or https://</strong>
+      </p>
+      <p>
+        To shorten an URL:<br/>
+        <code>https://atomk-fcc-urlshort.glitch.me/new/https://www.example.com</code><br/>
+      </p>
+      <p>
+        Sample output:<br/>
+        <code>{ "url-original": "https://www.example.com", "url-short": "https://atomk-fcc-urlshort.glitch.me/xmpl" }</code>
+      </p>
+      <p>
+        To access the shortened URL:<br/>
+        <code>https://atomk-fcc-urlshort.glitch.me/xmpl</code>
+      </p>
+      <p>
+        Sample error output:<br/>
+        <code>{"error":"This route requires a parameter. Use /new/:url instead."}</code>
+      </p>  
+    </main>
+
+    <footer>
+      Made by <a href="https://www.freecodecamp.com/atomk">Atomk</a> for <a href="https://www.freecodecamp.com">freeCodeCamp</a>.
+    </footer>
+
+  </body>
+</html>

@@ -1,0 +1,29 @@
+{
+  "name": "atomk-fcc-urlshort",
+  "version": "1.0.0",
+  "description": "What am I about?",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server-mongo.js"
+  },
+  "dependencies": {
+    "express": "^4.15.3",
+    "mongodb": "^2.2.31"
+  },
+  "engines": {
+    "node": "8.x"
+  },
+  "repository": {
+    "url": "https://glitch.com/edit/#!/atomk-fcc-urlshort"
+  },
+  "license": "MIT",
+  "keywords": [
+    "node",
+    "glitch",
+    "express",
+    "freecodecamp",
+    "url",
+    "shortener",
+    "api"
+  ]
+}
