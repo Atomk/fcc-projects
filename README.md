@@ -2,12 +2,9 @@
 A repository for the projects I've built for the challenges on [freeCodeCamp](https://www.freecodecamp.com).
 
 Many of them were created with Codepen, you can find a link to view a live version of those here below or in the individual project folders.
+There's also a folder for the JS algorithm challenges.
 
 ## 1) Front-end ([certificate](https://www.freecodecamp.org/atomk/front-end-certification))
-- JS algorithm scripting
-    - [ ] Basic
-    - [ ] Intermediate
-    - [ ] Advanced
 - Basic projects
     1. [x] Tribute page ([view](https://codepen.io/Atomk/pen/grdXjZ/left/))
     2. [x] Personal portfolio page ([view](https://codepen.io/Atomk/pen/dMqLer/left/))
