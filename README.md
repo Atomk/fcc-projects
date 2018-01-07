@@ -41,7 +41,7 @@ There's also a folder for the JS algorithm challenges.
     1. [x] Timestamp Microservice ([view](https://atomk-fcc-timestamp.glitch.me/))
     2. [x] Request Header Parser Microservice ([view](https://atomk-fcc-reqheaderparser.glitch.me/))
     3. [x] URL Shortener Microservice ([view](https://atomk-fcc-urlshort.glitch.me/))
-    4. [ ] Image Search Abstraction Layer
+    4. [x] Image Search Abstraction Layer ([view](https://atomk-fcc-imgsearch.glitch.me))
     5. [ ] File Metadata Microservice
 
 - Dynamic Web Application Projects
