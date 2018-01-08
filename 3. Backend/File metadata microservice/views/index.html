@@ -1,0 +1,38 @@
+<!-- This is a static file -->
+<!-- served from your routes in server.js -->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>File Metadata Microservice</title>
+    <meta name="description" content="A cool thing made with Glitch">
+    <link id="favicon" rel="icon" href="https://glitch.com/edit/favicon-app.ico" type="image/x-icon">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/style.css">
+  </head>
+  <body>
+    <header>
+      <h1>
+        File Metadata Microservice
+      </h1>
+    </header>
+
+    <main>
+      <p>
+        Do you remember that file you kept in a corner of your desktop for all these years? Ever wondered how much precious space does it waste? Well now we can answer that question!
+      </p>
+      <form action="/upload" method="POST" enctype="multipart/form-data">
+        <!-- "clientFile" will be used by the server to identify the file -->
+        <input type="file" name="clientFile" required />
+        <input type="submit" />
+      </form>
+    </main>
+
+    <footer>
+      Made by <a href="https://www.freecodecamp.com/atomk">Atomk</a> for <a href="https://www.freecodecamp.com">freeCodeCamp</a>.
+    </footer>
+
+  </body>
+</html>

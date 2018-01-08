@@ -1,0 +1,57 @@
+/* styles */
+/* called by your view template */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: helvetica, arial, sans-serif;
+  margin: 25px;
+}
+
+h1 {
+  font-weight: bold;
+  color: #7785AC;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+p {
+  max-width: 550px;
+}
+
+form {
+  margin-top: 20px;
+  padding: 15px;
+  background-color: #AADADA;
+  display: inline-block;
+  width: 100%;
+  max-width: 340px;
+  border-radius: 3px;
+}
+
+input {
+  display: block;
+  margin-bottom: 10px;
+  padding: 5px;
+  width: 100%;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+input[type="file"] {
+  border: 1px solid grey;
+}
+
+footer {
+  margin-top: 50px;
+  padding-top: 25px;
+  border-top: 1px solid lightgrey;
+}
+
+footer > a {
+  color: #AAAAAA;
+}
